@@ -3,8 +3,8 @@ import '../index.css'
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-light bg-dark flex-column flex-md-row">
-        <a className="navbar-brand ml-1" href="#">
+      <nav className="navbar navbar-light fixed-top bg-dark flex-column flex-md-row">
+        <a className="navbar-brand ml-1" href="#about">
           <img className="mr-2 rounded" src={require('../AOH-Logo_White_transparent.png')} width="100px" height="70px" />
         </a>
         <div>

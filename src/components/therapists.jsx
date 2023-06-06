@@ -7,18 +7,37 @@ Jacquie began her clinical work in 2013 and worked with children within the fost
 
 In October of 2020, Jacquie began pursuing advanced training in Emotionally Focused Therapy (EFT).  Jacquie utilizes EFT and other evidence-based approaches to help families grow closer together and heal from trauma.
 
-Jacquie is a wife and mother of two adult sons.  In her spare time she enjoys traveling, reading and learning.`
+Jacquie is a wife and mother of two adult sons.  In her spare time she enjoys traveling, reading and learning.`,
+  chris: `Chris is a Licensed Professional Counselor Associate in South Carolina, who earned his Master of Arts in Clinical Mental Health from Liberty University. He also holds a B.S. in Business Aministration from Charleston Southern University. Prior to entering the mental health field, Chris enjoyed a long career in the automotive industry. Through his own struggles with mental health, marital difficulties, and personal challenges, Chris has found not only personal healing, but also a passion for seeing lives and marriages restored.
+
+Chris has worked with a variety of life concerns including anxiety, depression, trauma, relationship issues, sexual performance, sexuality, and spirituality.  He is trained in Emotionally Focused Therapy and the Unified Protocol for the Transdiagnostic Treatment of Emotional disorders.  He is also a co-facilitator of Created for Connection marriage workshops.
+
+Chris is a native Charlestonian, living here with his wife Sandi of seventeen years and their three boys.  He enjoys the time they spend together, whether it is watching or coaching kids sporting events, gatherings with neighbors and friends, or traveling to new and exciting places. Chris and Sandi also lead a church small group in their home.`
 }
 
 export default function Therapist() {
 
  const therapists = [
     {
-      id: "ryan",
-      name: "Dr. Ryan O'Farrell, Psy.D.",
-      firstName: "Ryan",
-      title: "Co-owner and Psychologist",
+      id: "breanne",
+      name: "Breanne Stevens, LPC",
+      firstName: "Breanne",
+      title: "Therapist",
       bio: "Placeholder"
+    },
+    {
+      id: "carol",
+      name: "Carol Conway, LISW-CP",
+      firstName: "Carol",
+      title: "Therapist",
+      bio: "Placeholder"
+    },
+    {
+      id: "chris",
+      name: "Chris Wells, LPC-A",
+      firstName: "Chris",
+      title: "Therapist",
+      bio: bios.chris
     },
     {
       id: "jacquie",
@@ -26,7 +45,14 @@ export default function Therapist() {
       firstName: "Jacquie",
       title: "Co-owner and Licensed Professional Counselor",
       bio: bios.jacquie
-    }
+    },
+    {
+      id: "ryan",
+      name: "Ryan O'Farrell, Psy.D.",
+      firstName: "Ryan",
+      title: "Co-owner and Psychologist",
+      bio: "Placeholder"
+    },
   ]
 
   const therapistCard = therapists.map(therapist =>
@@ -35,7 +61,6 @@ export default function Therapist() {
             <div className="card-body">
                 <h5 className="card-title">{therapist.name}</h5>
                 <h6 className="card-subtitle">{therapist.title}</h6>
-              <p className="card-text">Placeholder</p>
             </div>
         </div>
         <button className="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target={"#" + therapist.id} aria-expanded="false" aria-controls={therapist.id}>

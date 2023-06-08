@@ -15,6 +15,9 @@ export default function Navbar() {
             <li className="nav-item">
               <a className="btn btn-outline-light" href="#therapists">Therapists</a>
             </li>
+            <li className="nav-item">
+              <a className="btn btn-outline-light" href="#faq">FAQ</a>
+            </li>
             <li className="nav-item me-md-3">
               <a className="btn btn-outline-light" href="#contact">Contact</a>
             </li>

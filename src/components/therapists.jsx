@@ -12,7 +12,16 @@ Jacquie is a wife and mother of two adult sons.  In her spare time she enjoys tr
 
 Chris has worked with a variety of life concerns including anxiety, depression, trauma, relationship issues, sexual performance, sexuality, and spirituality.  He is trained in Emotionally Focused Therapy and the Unified Protocol for the Transdiagnostic Treatment of Emotional disorders.  He is also a co-facilitator of Created for Connection marriage workshops.
 
-Chris is a native Charlestonian, living here with his wife Sandi of seventeen years and their three boys.  He enjoys the time they spend together, whether it is watching or coaching kids sporting events, gatherings with neighbors and friends, or traveling to new and exciting places. Chris and Sandi also lead a church small group in their home.`
+Chris is a native Charlestonian, living here with his wife Sandi of seventeen years and their three boys.  He enjoys the time they spend together, whether it is watching or coaching kids sporting events, gatherings with neighbors and friends, or traveling to new and exciting places. Chris and Sandi also lead a church small group in their home.`,
+  ryan: `Ryan is a Clinical Psychologist who earned his doctorate in clinical psychology in 2016 from George Fox University in Newberg, Oregon. Prior to starting Anchors of Hope Counseling, LLC, in 2023 with his colleague Jacquie Atkins, LPC, he served as the Clinical Director of Life Resources in Mount Pleasant, SC.
+
+Ryan's graduate training provided him the opportunity to start working with clients in 2012 and since that time he has had the honor and pleasure of assisting individuals with a breadth of personal concerns, including depression, anxiety, PTSD and other trauma-related difficulties, insomnia, panic attacks, men's issues, identity issues, and relationship problems. He has additional training in EMDR, which is an evidence-based treatment for PTSD and other trauma-related difficulties.
+
+Ryan's therapeutic approach is warm, empathic, and highly relational. He has been heavily influenced by Emotion-Focused Therapy, an evidence-based treatment that emphasizes empathic attunement to a person's emotions and needs. While Ryan incorporates a number of different treatment approaches into his therapy (such as CBT, ACT, and EMDR), his primary goal is ensure that each individual he sees feels heard, understood, and respected throughout the therapy process.
+
+Ryan has been in the Charleston region since 2017. He grew up in the San Francisco Bay area and prior to moving to South Carolina, also lived in Oregon and Washington state. He loves quiet evenings spent reading and drinking tea and is an avid sports fan, especially of the San Francisco 49ers and the Golden State Warriors. When moving to South Carolina, he made a personal commitment to remain like Switzerland when it comes to the USC and Clemson rivalry; he is happy to say he has kept that commitment.
+
+Ryan and his wife Chelsea have been married for 12 years and have an ever expanding flock of young children. As such, he has no quiet evenings to read and drink tea.`
 }
 
 export default function Therapist() {
@@ -51,7 +60,7 @@ export default function Therapist() {
       name: "Ryan O'Farrell, Psy.D.",
       firstName: "Ryan",
       title: "Co-owner and Psychologist",
-      bio: "Placeholder"
+      bio: bios.ryan
     },
   ]
 

@@ -85,7 +85,8 @@ export default function Therapist() {
 
   return (
     <>
-        <h2 className="card mx-auto col-6 col-md-4 p-2 mb-5" id="therapists">Therapists</h2>
+        <div className="anchor" id="therapists"></div>
+        <h2 className="card mx-auto col-6 col-md-4 p-2 mb-5">Therapists</h2>
         <div className="container-fluid mx-auto">
           <div className="row row-cols-1 row-cols-lg-2 mb-3">
               {therapistCard}

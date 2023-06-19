@@ -25,8 +25,8 @@ code {
   visibility: hidden;
 }
 
-.about-section {
-  background-color: #ffffff;
+.navbar-color {
+  background-color: #2e3440;
 }
 
 .background-img {
@@ -43,4 +43,50 @@ code {
 .logo {
   max-height: 70vh;
   max-width: 70vw;
+}
+
+.about-section {
+  background-color: #eceff4;
+}
+
+#about-header {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2e3440;
+}
+
+.therapist-section {
+  background-color: #3b4252;
+}
+
+#therapist-header {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #81a1c1 0%, #b48ead 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.custom-btn {
+  background-color: #8fbcbb;
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+  background-color: #81a1c1;
+}
+
+.card-color {
+  background-color: #eceff4;
+}
+
+.faq-section {
+  background-color: #eceff4;
+}
+
+#faq-header {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2e3440;
 }

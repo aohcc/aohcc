@@ -10,7 +10,7 @@ export default function About() {
         </div>
         <div className="anchor" id="about"></div>
         <div className="about-section d-flex flex-column justify-content-center p-3">
-          <h1 className="text-center mb-3">About Us</h1>
+          <h1 className="text-center mb-3" id="about-header">About Us</h1>
           <p className="text-center col-md-10 col-lg-8 mx-auto">Located in Charleston, SC, Anchors of Hope Counseling Center is a collection of
           therapists who have come together with a shared vision for supporting the mental health needs of families,
             couples, and individuals in the Lowcountry. While our counseling center is new, our experienced therapists

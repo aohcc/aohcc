@@ -66,17 +66,17 @@ export default function Therapist() {
 
   const therapistCard = therapists.map(therapist =>
     <div>
-        <div className="card mx-auto col col-md-10 mb-3">
+        <div className="card-color card mx-auto col col-md-10 mb-3">
             <div className="card-body">
                 <h5 className="card-title">{therapist.name}</h5>
                 <h6 className="card-subtitle">{therapist.title}</h6>
             </div>
         </div>
-        <button className="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target={"#" + therapist.id} aria-expanded="false" aria-controls={therapist.id}>
+        <button className="btn custom-btn mb-3" type="button" data-bs-toggle="collapse" data-bs-target={"#" + therapist.id} aria-expanded="false" aria-controls={therapist.id}>
           {therapist.firstName}'s bio
         </button>
         <div className="collapse mx-auto col col-md-10" id={therapist.id}>
-          <div className="card card-body mb-3 display-linebreak">
+          <div className="card-color card card-body mb-3 display-linebreak">
                 {therapist.bio}
             </div>
         </div>
@@ -85,13 +85,15 @@ export default function Therapist() {
 
   return (
     <>
+      <div className="therapist-section">
         <div className="anchor" id="therapists"></div>
-        <h2 className="mx-auto col-6 col-md-4 p-2 my-4">Therapists</h2>
+        <h2 className="mx-auto col-8 col-md-4 p-2 my-4" id="therapist-header">Therapists</h2>
         <div className="container-fluid mx-auto">
-          <div className="row row-cols-1 row-cols-lg-2 mb-3">
+          <div className="row row-cols-1 row-cols-lg-2">
               {therapistCard}
           </div>
         </div>
+      </div>
     </>
   )
 }

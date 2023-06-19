@@ -76,8 +76,12 @@ const faqAccordion = faqs.map(faq =>
 export default function Faq() {
   return (
     <>
-      <div id="faq" className="accordion container-fluid mx-auto col col-md-10 mb-4">
-        {faqAccordion}
+      <div className="faq-section">
+        <div id="faq"></div>
+        <h2 id="faq-header">FAQ</h2>
+        <div className="accordion container-fluid mx-auto col col-md-10">
+          {faqAccordion}
+        </div>
       </div>
     </>
   )

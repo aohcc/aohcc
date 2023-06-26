@@ -6,7 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #efefef;
+  /* background-color: #efefef; */
+  background-color: #faf9f9;
 }
 
 code {
@@ -25,8 +26,15 @@ code {
   visibility: hidden;
 }
 
+@media (max-width: 576px) {
+  .anchor {
+    height: 150px;
+    margin-top: -150px;
+  }
+}
+
 .navbar-color {
-  background-color: #2e3440;
+  background-color: #111;
 }
 
 .background-img {
@@ -45,48 +53,50 @@ code {
   max-width: 70vw;
 }
 
-.about-section {
-  background-color: #eceff4;
-}
-
-#about-header {
-  font-size: 3rem;
-  font-weight: 700;
-  color: #2e3440;
-}
-
-.therapist-section {
-  background-color: #3b4252;
-}
-
-#therapist-header {
-  font-size: 3rem;
-  font-weight: 700;
-  background: linear-gradient(to right, #81a1c1 0%, #b48ead 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-}
-
-.custom-btn {
-  background-color: #8fbcbb;
-}
-
-.custom-btn:hover,
-.custom-btn:focus {
-  background-color: #81a1c1;
-}
-
-.card-color {
-  background-color: #eceff4;
-}
-
+.about-section,
 .faq-section {
-  background-color: #eceff4;
+  /* background-color: #eceff4; */
+  background-color: #faf9f9;
 }
 
+#about-header,
 #faq-header {
   font-size: 3rem;
   font-weight: 700;
   color: #2e3440;
 }
+
+.therapist-section,
+.contact-section {
+  background-color: #314856;
+}
+
+#therapist-header,
+#contact-header {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #BAEA90;
+  /* background: linear-gradient(to right, #618eb9 0%, #BFD3E3 100%); */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  display: inline-block;
+}
+
+.custom-btn {
+  background-color: #bee3db;
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+  background-color: #89b0ae;
+  /* background-color: #e07a5f; */
+}
+
+.card-color {
+  /* background-color: #eceff4; */
+  background-color: #faf9f9;
+}
+
+/* .faq-section { */
+/*   background-color: #eceff4; */
+/* } */

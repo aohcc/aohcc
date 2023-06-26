@@ -57,6 +57,20 @@ const faqs = [
         </div>
       </>
             )
+  },
+  {
+    item: "q4",
+    question: "Is therapy effective?",
+    answer: (
+      <>
+        <div className="col-10 mx-auto p-3">
+          <p>Research has consistently shown that the majority of those who participate in therapy experience at least some improvement in symptoms. With that said, a number of factors can contribute to the effectiveness (or lack thereof) of therapy. Some of these factors include how long-standing and complex a particular issue is and whether there are evidenced-based treatments for that particular concern. Additionally, most therapies require the active engagement and participation on the part of the client. This participation often includes taking skills and strategies learned in therapy to practice outside of therapy. Research has identified a set of factors, called, "common factors," that also impact the effectiveness of therapy. Some "common factors" include how comfortable, safe, and understood you feel with your therapist, the ability of you and your therapist to develop an agreed upon conceptualization of your difficulties, how clear and specific the goals you and your therapist establish for therapy are, as well what resources and supports you have available (such as social support, community supports, financial support, etc.).
+</p>
+          <p>In short, there are a lot of variables that go into whether any specific course of therapy will be effective and while most people experience at least some benefits from therapy, unfortunately we cannot guarantee that you personally will benefit from therapy. What we can promis is that each therapist at AOHCC will support you, collaborate with you, and use their clinical expertise to try and find solutions that work for you. Additionally, if your therapist feels you would be better served by a different type of treatment or service, your therapist will discuss this with you and will seek to connect you with any such service that could be beneficial to you.`
+</p>
+            </div>
+                  </>
+)
   }
 ]
 
@@ -76,10 +90,10 @@ const faqAccordion = faqs.map(faq =>
 export default function Faq() {
   return (
     <>
+      <div className="anchor" id="faq"></div>
       <div className="faq-section">
-        <div id="faq"></div>
-        <h2 id="faq-header">FAQ</h2>
-        <div className="accordion container-fluid mx-auto col col-md-10">
+        <h2 className="my-4" id="faq-header">FAQ</h2>
+        <div className="accordion container-fluid mx-auto mb-4 col col-md-10">
           {faqAccordion}
         </div>
       </div>

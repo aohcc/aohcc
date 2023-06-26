@@ -82,6 +82,17 @@ code {
   display: inline-block;
 }
 
+/* .therapist-card { */
+/*   max-height: 75vh; */
+/* } */
+
+.photo {
+  max-height: 75vh;
+  width: auto;
+  object-fit: cover;
+  object-position: top;
+}
+
 .custom-btn {
   background-color: #bee3db;
 }

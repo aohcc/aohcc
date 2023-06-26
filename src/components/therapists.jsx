@@ -1,3 +1,9 @@
+import breanne from '../photos/breanne.jpg'
+import carol from '../photos/carol.jpg'
+import chris from '../photos/chris.jpg'
+import jacquie from '../photos/jacquie.jpg'
+import ryan from '../photos/ryan.jpg'
+
 const bios = {
   jacquie: `Jacquie is a licensed professional counselor who holds a Master of Science degree in Clinical Mental Health Counseling – Psychology and a Bachelor of Science degree in Human Services,  both from Evangel University in Springfield, MO.
 
@@ -32,49 +38,55 @@ export default function Therapist() {
       name: "Breanne Stevens, LPC",
       firstName: "Breanne",
       title: "Therapist",
-      bio: "Placeholder"
+      bio: "Placeholder",
+      photo: breanne,
     },
     {
       id: "carol",
       name: "Carol Conway, LISW-CP",
       firstName: "Carol",
       title: "Therapist",
-      bio: "Placeholder"
+      bio: "Placeholder",
+      photo: carol,
     },
     {
       id: "chris",
       name: "Chris Wells, LPC-A",
       firstName: "Chris",
       title: "Therapist",
-      bio: bios.chris
+      bio: bios.chris,
+      photo: chris,
     },
     {
       id: "jacquie",
       name: "Jacquie Atkins, MS, LPC",
       firstName: "Jacquie",
-      title: "Co-owner and Licensed Professional Counselor",
-      bio: bios.jacquie
+      title: "Co-owner",
+      bio: bios.jacquie,
+      photo: jacquie,
     },
     {
       id: "ryan",
       name: "Ryan O'Farrell, Psy.D.",
       firstName: "Ryan",
-      title: "Co-owner and Psychologist",
-      bio: bios.ryan
+      title: "Co-owner",
+      bio: bios.ryan,
+      photo: ryan,
     },
   ]
 
   const therapistCard = therapists.map(therapist =>
     <div>
-        <div className="card-color card mx-auto col col-md-10 mb-3">
+        <div className="card col-10 mx-auto mb-5">
+          <img src={therapist.photo} className="photo" />
             <div className="card-body">
                 <h5 className="card-title">{therapist.name}</h5>
                 <h6 className="card-subtitle">{therapist.title}</h6>
+                <button className="btn custom-btn mt-3" type="button" data-bs-toggle="collapse" data-bs-target={"#" + therapist.id} aria-expanded="false" aria-controls={therapist.id}>
+                  {therapist.firstName}'s bio
+                </button>
             </div>
         </div>
-        <button className="btn custom-btn mb-3" type="button" data-bs-toggle="collapse" data-bs-target={"#" + therapist.id} aria-expanded="false" aria-controls={therapist.id}>
-          {therapist.firstName}'s bio
-        </button>
         <div className="collapse mx-auto col col-md-10" id={therapist.id}>
           <div className="card-color card card-body mb-3 display-linebreak">
                 {therapist.bio}
@@ -89,7 +101,7 @@ export default function Therapist() {
       <div className="therapist-section">
         <h2 className="mx-auto col-8 col-md-4 p-2 my-4" id="therapist-header">Therapists</h2>
         <div className="container-fluid mx-auto">
-          <div className="row row-cols-1 row-cols-lg-2">
+          <div className="row row-cols-1 row-cols-lg-3">
               {therapistCard}
           </div>
         </div>

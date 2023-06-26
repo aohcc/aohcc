@@ -48,12 +48,21 @@ const faqs = [
       <>
         <div className="containter-fluid p-3">
         <p className="text-left col-10 mx-auto">This will vary, depending on what your therapeutic goals are and what treatment approach your therapist employs. In general, here are some of the things you can expect to happen during appointments:</p>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item col-10 mx-auto">To explore your thoughts, feelings, and behaviors in response to past, present, or upcoming challenges in your life. By exploring your thoughts, feelings, and behaviors, you can gain insight into what is most troublesome to you, what is hindering your efforts to resolve what is troubling you, and how you might more effectively respond to what is troubling you.</li>
-            <li className="list-group-item col-10 mx-auto">Your therapist may introduce or review information that is relevant to the achievement of your therapetic goals. This informaiton could relate to a particular diagnosis, to common factors that contribute to a specific problem or experience, information about a specific treatment approach that oculd be beneficial, and strategies to implement that could help you make progress toward your therapeutic goals.</li>
-            <li className="list-group-item col-10 mx-auto">Your therapist may guide you through specific exercises that could be helpful to you.</li>
-            <li className="list-group-item col-10 mx-auto">You and your therapist may revifew and build upon exercises you were given to do outside of your appointment. While a lot of progress can be made in your therapy appointments, the bulk of your therapeutic progress will be based on the work you do outside of therapy. A major goal of therapy is to further empower you to effectively navigate the challenges that come up in life.</li>
-          </ul>
+          <ol className="list-group list-group-numbered">
+            <li className="col-10 mx-auto list-group-item d-flex justify-content-between align-items-start ">
+             <div className="ms-2 me-auto">To explore your thoughts, feelings, and behaviors in response to past, present, or upcoming challenges in your life. By exploring your thoughts, feelings, and behaviors, you can gain insight into what is most troublesome to you, what is hindering your efforts to resolve what is troubling you, and how you might more effectively respond to what is troubling you.</div>
+            </li>
+            <li className="col-10 mx-auto list-group-item d-flex justify-content-between align-items-start">
+              <div className="ms-2 me-auto">Your therapist may introduce or review information that is relevant to the achievement of your therapetic goals. This informaiton could relate to a particular diagnosis, to common factors that contribute to a specific problem or experience, information about a specific treatment approach that oculd be beneficial, and strategies to implement that could help you make progress toward your therapeutic goals.</div>
+            </li>
+            <li className="col-10 mx-auto list-group-item d-flex justify-content-between align-items-start">
+              <div className="ms-2 me-auto">Your therapist may guide you through specific exercises that could be helpful to you.</div>
+            </li>
+            <li className="col-10 mx-auto list-group-item d-flex justify-content-between align-items-start">
+              <div className="ms-2 me-auto">You and your therapist may revifew and build upon exercises you were given to do outside of your appointment. While a lot of progress can be made in your therapy appointments, the bulk of your therapeutic progress will be based on the work you do outside of therapy. A major goal of therapy is to further empower you to effectively navigate the challenges that come up in life.</div>
+            </li>
+
+          </ol>
         </div>
       </>
             )

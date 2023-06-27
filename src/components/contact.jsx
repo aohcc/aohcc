@@ -133,19 +133,7 @@ export default function Contact() {
                   Contact Us
                 </button>
               </div>
-
-              <div class="d-block text-end">
-                <div class="small">
-                  by
-                  <a
-                    href="https://herotofu.com"
-                    class="text-dark text-decoration-none"
-                    target="_blank"
-                    > HeroTofu</a
-                  >
-                </div>
-              </div>
-            </form>
+           </form>
           </div>
         </div>
       </div>

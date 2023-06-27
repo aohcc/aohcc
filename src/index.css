@@ -33,7 +33,8 @@ code {
   }
 }
 
-.navbar-color {
+.navbar-color,
+.footer-color {
   background-color: #111;
 }
 

@@ -34,12 +34,12 @@ export default function Therapist() {
 
  const therapists = [
     {
-      id: "breanne",
-      name: "Breanne Stevens, LPC",
-      firstName: "Breanne",
-      title: "Therapist",
-      bio: "Placeholder",
-      photo: breanne,
+      id: "jacquie",
+      name: "Jacquie Atkins, MS, LPC",
+      firstName: "Jacquie",
+      title: "Co-owner",
+      bio: bios.jacquie,
+      photo: jacquie,
     },
     {
       id: "carol",
@@ -50,28 +50,28 @@ export default function Therapist() {
       photo: carol,
     },
     {
-      id: "chris",
-      name: "Chris Wells, LPC-A",
-      firstName: "Chris",
-      title: "Therapist",
-      bio: bios.chris,
-      photo: chris,
-    },
-    {
-      id: "jacquie",
-      name: "Jacquie Atkins, MS, LPC",
-      firstName: "Jacquie",
-      title: "Co-owner",
-      bio: bios.jacquie,
-      photo: jacquie,
-    },
-    {
       id: "ryan",
       name: "Ryan O'Farrell, Psy.D.",
       firstName: "Ryan",
       title: "Co-owner",
       bio: bios.ryan,
       photo: ryan,
+    },
+    {
+      id: "breanne",
+      name: "Breanne Stevens, LPC",
+      firstName: "Breanne",
+      title: "Therapist",
+      bio: "Placeholder",
+      photo: breanne,
+    },
+    {
+      id: "chris",
+      name: "Chris Wells, LPC-A",
+      firstName: "Chris",
+      title: "Therapist",
+      bio: bios.chris,
+      photo: chris,
     },
   ]
 

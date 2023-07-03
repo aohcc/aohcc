@@ -5,6 +5,9 @@ import jacquie from '../photos/jacquie.jpg'
 import ryan from '../photos/ryan.jpg'
 
 const bios = {
+  breanne: `
+
+`,
   jacquie: `Jacquie is a licensed professional counselor who holds a Master of Science degree in Clinical Mental Health Counseling – Psychology and a Bachelor of Science degree in Human Services,  both from Evangel University in Springfield, MO.
 
 Jacquie specializes in attachment-based work with teens, families, individuals, and marriages.

@@ -5,19 +5,37 @@ const faqs = [
     question: "How long does therapy take?",
     answer: (
       <div className="col-10 p-3 mx-auto">
-        <p>Unfortunately there is no way to provide a set answer to this question as it varies greatly. Some factors that contribute to the length of therapy include: how significant the presenting issues are, how longstanding the presenting issues are, how much a client is able to invest in the therapeutic process, as well as what supports and resources client has access to. Additionally, some people come to therapy, accomplish their initial therapeutic goals, but decide to stay in therapy longer-term because they see a benefit to being in therapy in general.</p>
-        <p>With all of that said, your therapist will thoroughly assess your presenting difficulties, a process that typically takes 1-4 sessions. After the assessment, your therapist will clarify what your initial therapeutic goals are, collaborate with you in developing a personalized treatment plan, and give a timetable (typically 8-12 sessions) of when you and your therapist can check-back in to reassess your progress in therapy and reformulate therapeutic goals as needed.</p>
+        <p>The answer is: it depends. The length of therapy can vary greatly and depends on a number of factors. Some factors of those factors include: how significant the presenting issues are, how longstanding the presenting issues are, how much a person is able to invest in the therapeutic process, as well as what supports and resources the person has access to. Additionally, some people come to therapy, accomplish their initial therapeutic goals, but decide to stay in therapy longer-term because they see a benefit to staying in therapy for their overall health and well-being.
+        </p>
+        <p>With all of that said, what you can initially expect in therapy is that your therapist will thoroughly assess your presenting difficulties, a process that typically takes 1-4 sessions. After the assessment, your therapist will clarify what your initial therapeutic goals are, collaborate with you in developing a personalized treatment plan, and give a timeframe (typically 8-12 sessions) of when you and your therapist can check-back in to reassess your progress in therapy and reformulate therapeutic goals as needed.
+        </p>
+        <p>Of course, if you would like to end therapy for any reason, you can do so at anytime. If you are having concerns about your progress in therapy or about the direction of therapy, we would encourage you to share your concerns with your therapist. This provides your therapist the opportunity to hear your questions and concerns and change the approach to your therapy if needed. Additionally, it provides you and your therapist an opportunity to explore whether a referral for additional or alternative services would be beneficial to you.
+        </p>
       </div>
     )
   },
   {
-    item: "q2",
+      item: "q2",
+      question: "Is therapy effective?",
+      answer: (
+        <>
+          <div className="col-10 mx-auto p-3">
+            <p>Research has consistently shown that the majority of those who participate in therapy experience at least some improvement in symptoms. With that said, a number of factors can contribute to the effectiveness (or lack thereof) of therapy. Some of these factors include how long-standing and complex a particular issue is and whether there are evidenced-based treatments for that particular concern. Additionally, most therapies require the active engagement and participation on the part of the client. This participation often includes taking skills and strategies learned in therapy to practice outside of therapy. Research has identified a set of factors, called, "common factors," that also impact the effectiveness of therapy. Some "common factors" include how comfortable, safe, and understood you feel with your therapist, the ability of you and your therapist to develop an agreed upon conceptualization of your difficulties, how clear and specific the goals you and your therapist establish for therapy are, as well what resources and supports you have available (such as social support, community supports, financial support, etc.).
+            </p>
+            <p>In short, there are a lot of variables that go into whether any specific course of therapy will be effective and while most people experience at least some benefits from therapy, unfortunately we cannot guarantee that you personally will benefit from therapy. What we can promis is that each therapist at AOHCC will support you, collaborate with you, and use their clinical expertise to try and find solutions that work for you. Additionally, if your therapist feels you would be better served by a different type of treatment or service, your therapist will discuss this with you and will seek to connect you with any such service that could be beneficial to you.
+            </p>
+              </div>
+                    </>
+  )
+  },
+  {
+    item: "q3",
     question: "How much does therapy cost?",
     answer: (
       <div className="p-3">
-        <h5 className="mb-3">Our rates for sessions are as follows:</h5>
+        <h6 className="mb-3">Our rates for sessions are as follows:</h6>
         <div className="d-flex flex-column flex-md-row justify-content-around">
-          <div className="card">
+          <div className="card mb-3">
             <div className="card-header">
             <h5 className="card-title">Fully licensed therapists</h5>
             </div>
@@ -27,7 +45,7 @@ const faqs = [
               <p className="card-text">Family psychotherapy*, 55 minutes: $170</p>
             </div>
           </div>
-          <div className="card">
+          <div className="card mb-3">
             <div className="card-header">
               <h5 className="card-title">Associate level therapists</h5>
             </div>
@@ -38,11 +56,15 @@ const faqs = [
             </div>
           </div>
         </div>
+        <div className="col-10 mx-auto">
+          <p>Payment is due at the start of your appointment. To simplify billing for yourself and your therapist, we will, with your consent, obtain a credit card to keep on file that will be charged for your appointments.</p>
+          <p>*Please note that all appointments with persons under the age of 18 are billed at the family psychotherapy rate.</p>
+        </div>
       </div>
     )
   },
   {
-    item: "q3",
+    item: "q4",
     question: "What are appointments like?",
     answer: (
       <>
@@ -68,18 +90,45 @@ const faqs = [
             )
   },
   {
-    item: "q4",
-    question: "Is therapy effective?",
+    item: "q5",
+    question: "What can I expect in my relationship to my therapist?",
     answer: (
       <>
         <div className="col-10 mx-auto p-3">
-          <p>Research has consistently shown that the majority of those who participate in therapy experience at least some improvement in symptoms. With that said, a number of factors can contribute to the effectiveness (or lack thereof) of therapy. Some of these factors include how long-standing and complex a particular issue is and whether there are evidenced-based treatments for that particular concern. Additionally, most therapies require the active engagement and participation on the part of the client. This participation often includes taking skills and strategies learned in therapy to practice outside of therapy. Research has identified a set of factors, called, "common factors," that also impact the effectiveness of therapy. Some "common factors" include how comfortable, safe, and understood you feel with your therapist, the ability of you and your therapist to develop an agreed upon conceptualization of your difficulties, how clear and specific the goals you and your therapist establish for therapy are, as well what resources and supports you have available (such as social support, community supports, financial support, etc.).
-</p>
-          <p>In short, there are a lot of variables that go into whether any specific course of therapy will be effective and while most people experience at least some benefits from therapy, unfortunately we cannot guarantee that you personally will benefit from therapy. What we can promis is that each therapist at AOHCC will support you, collaborate with you, and use their clinical expertise to try and find solutions that work for you. Additionally, if your therapist feels you would be better served by a different type of treatment or service, your therapist will discuss this with you and will seek to connect you with any such service that could be beneficial to you.`
-</p>
-            </div>
-                  </>
-)
+          <p>You can expect a personal, warm, but professional relationship with your therapist. This means that during appointments, you can expect to feel heard, understood, respected, and safe with your therapist, even when your therapist if offering feedback to you. You can also expect that the primary focus of the relationship will be on you and on your goals. This means that while your therapist may share personal information, that information will be shared with a therapeutic goal in mind.
+          </p>
+          <p>Additionally, it is important to know that all of our therapists operate according to the ethical guidelines set for by their respective professional organizations, such as the American Psychological Association (APA), the American Counseling Association (ACA), and the National Association of Social Workers (NASW). These organizations set guidelines for relationships with clients in order to protect clients and ensure the safety of therapeutic relationships. According to these guidelines, therapists cannot have any social interactions with a client for at least 2 years after the termination of treatment. Additionally, under no circumstances can therapists engage in a romantic and/or sexual relationship with any current or past client.
+          </p>
+          <p>Of course, the Lowcountry can be a small community and you may on occasion run into your therapist while out in the community. If this happens, your therapist will not initiate contact with you. This is done in order to protect your confidentiality, as it could be awkward or uncomfortable for a friend or family member to ask how you know your therapist. You are of course free to initiate contact with your therapist and introduce your therapist to anyone you want to. But please know that any such interactions with your therapist will be kept brief and that your therapist will not engage in any therapeutic conversations (including discussing therapy-related matters) during such encounters in the community.
+          </p>
+          <p>You can also expect that your therapist will continue to pursue additional training and supervision in order to further develop and grow as a therapist. Some trainings require that a participating therapist record sessions with some clients so that the therapist can receive feedback on the implementation of the specific therapeutic approach or technique. Should your therapist engage in (or already be engaged in) such a training and want to record some sessions with you, your therapist will discuss this with you, provide you with information about how any recordings will be used, stored, and destroyed, and will answer any questions or concerns you may have. Your therapist will not record any session, in any way (audio or video) without your express written consent. Should you provide such written consent, you can withdraw your consent at any time by talking to your therapist about your desire to withdraw your consent to record sessions and by providing a written notice thereof. We also ask that you agree to not record sessions in any way (audio or video) without your therapist's express written consent.
+          </p>
+          <p>All of these boundaries and structures are meant to promote a sense of safety and comfort for both you and your therapist, so that therapy can remain focused on your goals and can be as effective as possible.
+          </p>
+        </div>
+      </>
+    )
+  },
+  {
+    item: "q6",
+    question: "What is the best way to contact my therapist between appointments?",
+    answer: "Placeholder"
+  },
+  {
+    item: "q7",
+    question: "Will what I say in therapy stay confidential?",
+    answer: (
+      <>
+        <div className="col-10 mx-auto p-3">
+          <p>In general the answer is yes. Therapy works best when there is trust that you can share (if you choose) the most private of your thoughts and feelings without worrying that someone else will learn about them. It is both a priority for our therapists as well as the professional organizations we belong to, to strictly guard and protect client confidentiality.
+          </p>
+          <p>But it is important for you to know that there are some circumstances where confidentiality can or must be broken. Most of these circumstances involve situations where another person may be in physical danger and we as therapists are required, by law, to report the potential danger so that law enforcement and other state agencies can do their work of keeping others safe.
+          </p>
+          <p>Because we want you to have a clear sense of what information will remain confidential and what information we need to report, we have created a handout on confidentiality that you can download below. This handout will also be included in your intake paperwork if you choose to seek services with us, but we include it on our website so that if you ever forget what is on there, you can reference it here. Please read it over carefully and if you have any further questions about confidentiality in therapy, please do not hesitate to speak to your therapist or call our office.
+          </p>
+        </div>
+      </>
+    )
   }
 ]
 

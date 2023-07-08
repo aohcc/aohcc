@@ -89,7 +89,7 @@ export default function Contact() {
       <h2 className="my-4" id="contact-header">Contact Us</h2>
       <div class="container-fluid">
         <div class="row mx-0 justify-content-center">
-          <div class="col-md-7 col-lg-5 px-lg-2 col-xl-4 px-xl-0 px-xxl-3 mb-4">
+          <div class="col-md-7 col-lg-5 px-lg-2 col-xl-4 px-xl-0 px-xxl-3 mb-5">
             <form
               method="POST"
               class="w-100 rounded-1 p-4 border bg-white"

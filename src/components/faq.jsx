@@ -151,7 +151,7 @@ export default function Faq() {
       <div className="anchor" id="faq"></div>
       <div className="faq-section">
         <h2 className="my-4" id="faq-header">FAQ</h2>
-        <div className="accordion container-fluid mx-auto mb-4 col col-md-10">
+        <div className="accordion container-fluid mx-auto mb-5 col col-md-10">
           {faqAccordion}
         </div>
       </div>

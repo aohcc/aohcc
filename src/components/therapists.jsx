@@ -5,21 +5,25 @@ import jacquie from '../photos/jacquie.jpg'
 import ryan from '../photos/ryan.jpg'
 
 const bios = {
-  breanne: `
+  breanne: `Breanne is a Licensed Professional Counselor, who earned her M.S. in Clinical Mental Counseling from Evangel University in Springfield, Missouri.
 
-`,
+Breanne began her clinical career in 2016, within a psychiatric residential treatment facility for children and adolescents. There, she felt privileged to walked alongside children, adolescents, and families who were navigating difficult seasons of life. In 2022, Breanne moved to the Lowcountry to work in a non-profit outpatient mental health practice, where she got to work with children, adolescents, adults, and families. Her clinical specialties include: trauma-informed care, grief and loss, depression, anxiety, suicidal ideation, non-suicidal self-injury. Additionally, Breanne loves to help those she serves develop a healthy relationship with themselves, their family, and their communities.
+
+Breanne is passionate to see mental health and emotional wholeness fully integrated within local churches and schools. She is available for speaking engagements and trainings in the areas of grief and loss, trauma-informed care, depression, anxiety, suicide prevention, crisis intervention, abuse prevention, stress-management, effective coping strategies,  and emotional and relational health.
+
+In her free time, Breanne enjoys exploring local beaches, spending quality time with family and friends, conversations over coffee, board games and traveling!`,
   jacquie: `Jacquie is a licensed professional counselor who holds a Master of Science degree in Clinical Mental Health Counseling – Psychology and a Bachelor of Science degree in Human Services,  both from Evangel University in Springfield, MO.
 
-Jacquie specializes in attachment-based work with teens, families, individuals, and marriages.
+Jacquie specializes in attachment-based work with teens, families, individuals, and couples.
 
-Jacquie began her clinical work in 2013 and worked with children within the foster system, supporting foster children, their birth parents, and their foster families.  In walking alongside children and their biological and foster families, Jacquie saw the deep impact that trauma has on families. At the same time, she got to witness firsthand how facilitating healthy attachments for children, teens, and adults could bring significant healing into individuals and family-systems.
+Jacquie began her clinical work in 2013 working with children within the foster system. During this time, she was honored to provide support and guidance to foster children, their birth parents, and their foster families.  In walking alongside children and their biological and foster families, Jacquie saw the deep impact that trauma has on families. At the same time, she got to witness firsthand how facilitating healthy attachments for children, teens, and adults could bring significant healing into individuals and family-systems.
 
 In October of 2020, Jacquie began pursuing advanced training in Emotionally Focused Therapy (EFT).  Jacquie utilizes EFT and other evidence-based approaches to help families grow closer together and heal from trauma.
 
 Jacquie is a wife and mother of two adult sons.  In her spare time she enjoys traveling, reading and learning.`,
-  chris: `Chris is a Licensed Professional Counselor Associate in South Carolina, who earned his Master of Arts in Clinical Mental Health from Liberty University. He also holds a B.S. in Business Aministration from Charleston Southern University. Prior to entering the mental health field, Chris enjoyed a long career in the automotive industry. Through his own struggles with mental health, marital difficulties, and personal challenges, Chris has found not only personal healing, but also a passion for seeing lives and marriages restored.
+  chris: `Chris is a Licensed Professional Counselor Associate in South Carolina, who earned his Master of Arts in Clinical Mental Health from Liberty University. He also holds a B.S. in Business Administration from Charleston Southern University. Prior to entering the mental health field, Chris enjoyed a long career in the automotive industry. Through his own struggles with mental health, marital difficulties, and personal challenges, Chris has found not only personal healing, but also a passion for seeing lives and marriages restored.
 
-Chris has worked with a variety of life concerns including anxiety, depression, trauma, relationship issues, sexual performance, sexuality, and spirituality.  He is trained in Emotionally Focused Therapy and the Unified Protocol for the Transdiagnostic Treatment of Emotional disorders.  He is also a co-facilitator of Created for Connection marriage workshops.
+Chris has worked with a variety of life concerns including anxiety, depression, trauma, relationship issues, sexual performance, sexuality, and spirituality.  He is trained in Emotionally Focused Therapy (EFT) and the Unified Protocol for the Transdiagnostic Treatment of Emotional Disorders.  He is also a co-facilitator of Created for Connection marriage workshops.
 
 Chris is a native Charlestonian, living here with his wife Sandi of seventeen years and their three boys.  He enjoys the time they spend together, whether it is watching or coaching kids sporting events, gatherings with neighbors and friends, or traveling to new and exciting places. Chris and Sandi also lead a church small group in their home.`,
   ryan: `Ryan is a Clinical Psychologist who earned his doctorate in clinical psychology in 2016 from George Fox University in Newberg, Oregon. Prior to starting Anchors of Hope Counseling, LLC, in 2023 with his colleague Jacquie Atkins, LPC, he served as the Clinical Director of Life Resources in Mount Pleasant, SC.
@@ -30,7 +34,8 @@ Ryan's therapeutic approach is warm, empathic, and highly relational. He has bee
 
 Ryan has been in the Charleston region since 2017. He grew up in the San Francisco Bay area and prior to moving to South Carolina, also lived in Oregon and Washington state. He loves quiet evenings spent reading and drinking tea and is an avid sports fan, especially of the San Francisco 49ers and the Golden State Warriors. When moving to South Carolina, he made a personal commitment to remain like Switzerland when it comes to the USC and Clemson rivalry; he is happy to say he has kept that commitment.
 
-Ryan and his wife Chelsea have been married for 12 years and have an ever expanding flock of young children. As such, he has no quiet evenings to read and drink tea.`
+Ryan and his wife Chelsea have been married for 12 years and have an ever expanding flock of young children. As such, he has no quiet evenings to read and drink tea.`,
+  carol: `Placehold`,
 }
 
 export default function Therapist() {
@@ -49,7 +54,7 @@ export default function Therapist() {
       name: "Carol Conway, LISW-CP",
       firstName: "Carol",
       title: "Therapist",
-      bio: "Placeholder",
+      bio: bios.carol,
       photo: carol,
     },
     {
@@ -65,7 +70,7 @@ export default function Therapist() {
       name: "Breanne Stevens, LPC",
       firstName: "Breanne",
       title: "Therapist",
-      bio: "Placeholder",
+      bio: bios.breanne,
       photo: breanne,
     },
     {

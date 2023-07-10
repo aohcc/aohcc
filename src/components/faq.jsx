@@ -157,11 +157,11 @@ const faqs = [
 
 const faqAccordion = faqs.map(faq =>
     <div className="accordion-item">
-        <h2 className="accordion-header">
-          <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={"#" + faq.item} aria-expanded="false" aria-controls={faq.item}>
-            {faq.question}
-          </button>
-        </h2>
+      <h2 className="accordion-header">
+        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={"#" + faq.item} aria-expanded="false" aria-controls={faq.item}>
+          {faq.question}
+        </button>
+      </h2>
       <div id={faq.item} className="accordion-collapse collapse" data-bs-parent="#faqAccordionSection">
             {faq.answer}
       </div>

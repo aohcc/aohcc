@@ -111,8 +111,31 @@ const faqs = [
   },
   {
     item: "q6",
-    question: "What is the best way to contact my therapist between appointments?",
-    answer: "Placeholder"
+    question: "How can I contact my therapist between appointments?",
+      answer: (
+        <>
+          <div className="col-10 mx-auto p-3">
+            <p>You can call your therapist at the work number your therapist provides you or you may call the main office at (843) 377-5322. Please note that our therapists at Anchors of Hope Counseling Center do not provide emergency or crisis related services. If you are experiencing an emergency or crisis, please call 911 or go to your nearest Emergency Room. If you are experiencing suicidal thoughts, feelings, and/or urges, you may also call the National Suicide Prevention Lifeline by dialing 988.
+            </p>
+            <p>Your therapist will check their voicemail during regular office hours, Monday through Friday and will attempt to return your call within 1 business day. Phone calls between you and your therapist that go beyond scheduling related matters may be charged a phone consultation fee, which is $35 per 15-minutes.
+            </p>
+            <p>You can also send your therapist a message through our secure client portal. Please note that email is not a secure medium for contacting your therapist and as such, we strongly encourage you to message your therapist through the client portal. If you do decide to email your therapist, please only do so for scheduling purposes; do not share any information through email that you want kept confidential.
+            </p>
+          </div>
+        </>
+      )
+  },
+  {
+    item: "q7",
+    question: "What do I do if I am experiencing an emergency or crisis?",
+    answer: (
+      <>
+        <div className="col-10 mx-auto p-3">
+          <p>Anchors of Hope Counseling Center does not provide emergency or crisis related services. If you are experiencing an emergency or crisis, please call 911 or go to your nearest Emergency Room. If you are experiencing suicidal thoughts, feelings, and/or urges, you may also call the National Suicide Prevention Lifeline by dialing 988.
+          </p>
+        </div>
+      </>
+    )
   },
   {
     item: "q7",

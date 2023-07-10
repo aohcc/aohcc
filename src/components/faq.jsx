@@ -138,7 +138,7 @@ const faqs = [
     )
   },
   {
-    item: "q7",
+    item: "q8",
     question: "Will what I say in therapy stay confidential?",
     answer: (
       <>
@@ -158,11 +158,11 @@ const faqs = [
 const faqAccordion = faqs.map(faq =>
     <div className="accordion-item">
         <h2 className="accordion-header">
-          <button className="accordion-button" data-bs-toggle="collapse" data-bs-target={"#" + faq.item} aria-expanded="true" aria-controls={faq.item}>
+          <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={"#" + faq.item} aria-expanded="false" aria-controls={faq.item}>
             {faq.question}
-        </button>
+          </button>
         </h2>
-      <div id={faq.item} className="accordion-collapse collapse" data-bs-parent={faq.item}>
+      <div id={faq.item} className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
             {faq.answer}
         </div>
     </div>
@@ -174,7 +174,7 @@ export default function Faq() {
       <div className="anchor" id="faq"></div>
       <div className="faq-section">
         <h2 className="my-4" id="faq-header">FAQ</h2>
-        <div className="accordion container-fluid mx-auto mb-5 col col-md-10">
+        <div className="accordion container-fluid mx-auto mb-5 col col-md-10" id="faqAccordion">
           {faqAccordion}
         </div>
       </div>

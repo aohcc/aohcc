@@ -162,9 +162,9 @@ const faqAccordion = faqs.map(faq =>
             {faq.question}
           </button>
         </h2>
-      <div id={faq.item} className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+      <div id={faq.item} className="accordion-collapse collapse" data-bs-parent="#faqAccordionSection">
             {faq.answer}
-        </div>
+      </div>
     </div>
 )
 
@@ -174,7 +174,7 @@ export default function Faq() {
       <div className="anchor" id="faq"></div>
       <div className="faq-section">
         <h2 className="my-4" id="faq-header">FAQ</h2>
-        <div className="accordion container-fluid mx-auto mb-5 col col-md-10" id="faqAccordion">
+        <div className="accordion container-fluid mx-auto mb-5 col col-md-10" id="faqAccordionSection">
           {faqAccordion}
         </div>
       </div>

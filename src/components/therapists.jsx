@@ -35,7 +35,11 @@ Ryan's therapeutic approach is warm, empathic, and highly relational. He has bee
 Ryan has been in the Charleston region since 2017. He grew up in the San Francisco Bay area and prior to moving to South Carolina, also lived in Oregon and Washington state. He loves quiet evenings spent reading and drinking tea and is an avid sports fan, especially of the San Francisco 49ers and the Golden State Warriors. When moving to South Carolina, he made a personal commitment to remain like Switzerland when it comes to the USC and Clemson rivalry; he is happy to say he has kept that commitment.
 
 Ryan and his wife Chelsea have been married for 12 years and have an ever expanding flock of young children. As such, he has no quiet evenings to read and drink tea.`,
-  carol: `Placeholder`,
+  carol: `Carol earned a BA degree from Limestone College and a MSW degree from the University of South Carolina. In addition to her clinical experience, Carol has had the honor of working as a hospice social worker, bereavement coordinator, and supervisor for other social workers. She has advanced training in Critical Stress Management, Brainspotting, and Emotionally Focused Therapy (EFT). Carol’s own experiences with navigating what is all too often a painful, stressful, and busy world have instilled in her a deep compassion and empathy for those she works with.
+
+Carol provides individual counseling for adults has extensive experience helping people with depression, anxiety, PTSD and other trauma-related difficulties, and life transitions. Carol specialized in working with grief and loss and in addition to supporting individuals in their grieving process, she will also provide grief/loss focused couples counseling.
+
+Carol is a life long resident of the Lowcountry with a deep love for its culture, people and beautiful environment.`,
 }
 
 export default function Therapist() {
@@ -43,7 +47,7 @@ export default function Therapist() {
  const therapists = [
     {
       id: "jacquie",
-      name: "Jacquie Atkins, MS, LPC",
+      name: "Jacquie Atkins, LPC",
       firstName: "Jacquie",
       title: "Co-owner",
       bio: bios.jacquie,
@@ -51,7 +55,7 @@ export default function Therapist() {
     },
     {
       id: "carol",
-      name: "Carol Conway, LISW-CP",
+      name: "Carol Conway, LISW-CP-S",
       firstName: "Carol",
       title: "Therapist",
       bio: bios.carol,

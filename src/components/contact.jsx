@@ -118,6 +118,20 @@ export default function Contact() {
               </label>
 
               <label class="d-block mb-4">
+                <span class="form-label d-block">Phone Number</span>
+                <input
+                  name="phone"
+                  id="phone"
+                  type="tel"
+                  class="form-control"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  placeholder="555-555-5555"
+                  required
+                />
+                  <small>Format: 555-555-5555</small>
+              </label>
+
+              <label class="d-block mb-4">
                 <span class="form-label d-block">Message</span>
                 <textarea
                   name="message"

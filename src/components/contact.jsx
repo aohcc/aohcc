@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/30dc5580-1441-11ee-a6b0-17653bd30bd3"
-
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
 

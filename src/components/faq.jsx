@@ -41,8 +41,8 @@ const faqs = [
             </div>
             <div className="card-body">
               <p className="card-text">Individual psychotherapy, 55 minutes: $140</p>
-              <p className="card-text">Couples psychotherapy, 55 mintues: $170</p>
-              <p className="card-text">Family psychotherapy*, 55 minutes: $170</p>
+              <p className="card-text">Couples psychotherapy, 55 mintues: $175</p>
+              <p className="card-text">Family psychotherapy*, 55 minutes: $175</p>
             </div>
           </div>
           <div className="card mb-3">
@@ -51,8 +51,8 @@ const faqs = [
             </div>
             <div className="card-body">
               <p className="card-text">Individual psychotherapy, 55 minutes: $125</p>
-              <p className="card-text">Couples psychotherapy, 55 mintues: $145</p>
-              <p className="card-text">Family psychotherapy*, 55 minutes: $145</p>
+              <p className="card-text">Couples psychotherapy, 55 mintues: $150</p>
+              <p className="card-text">Family psychotherapy*, 55 minutes: $150</p>
             </div>
           </div>
         </div>

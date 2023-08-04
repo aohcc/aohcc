@@ -52,6 +52,7 @@ export default function Therapist() {
       title: "Co-owner",
       bio: bios.jacquie,
       photo: jacquie,
+      alt: "Headshot of Jacquie Atkins smiling.",
     },
     {
       id: "carol",
@@ -60,6 +61,7 @@ export default function Therapist() {
       title: "Therapist",
       bio: bios.carol,
       photo: carol,
+      alt: "Headshot of Carol Conway smiling.",
     },
     {
       id: "ryan",
@@ -68,6 +70,7 @@ export default function Therapist() {
       title: "Co-owner",
       bio: bios.ryan,
       photo: ryan,
+      alt: "Headshot of Ryan O'Farrell smiling.",
     },
     {
       id: "breanne",
@@ -76,6 +79,7 @@ export default function Therapist() {
       title: "Therapist",
       bio: bios.breanne,
       photo: breanne,
+      alt: "Headshot of Breanne Stevens smiling.",
     },
     {
       id: "chris",
@@ -84,13 +88,14 @@ export default function Therapist() {
       title: "Therapist",
       bio: bios.chris,
       photo: chris,
+      alt: "Headshot of Chris Wells smiling.",
     },
   ]
 
   const therapistCard = therapists.map(therapist =>
     <div>
         <div className="card col-10 mx-auto mb-5">
-          <img src={therapist.photo} className="photo" />
+          <img src={therapist.photo} className="photo" alt={therapist.alt} />
             <div className="card-body">
                 <h5 className="card-title">{therapist.name}</h5>
                 <h6 className="card-subtitle">{therapist.title}</h6>

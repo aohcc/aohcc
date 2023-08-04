@@ -1,4 +1,4 @@
-
+import handout from '../files/aohcc_confidentiality_handout.pdf'
 const faqs = [
   {
     item: "q1",
@@ -149,6 +149,7 @@ const faqs = [
           </p>
           <p>Because we want you to have a clear sense of what information will remain confidential and what information we need to report, we have created a handout on confidentiality that you can download below. This handout will also be included in your intake paperwork if you choose to seek services with us, but we include it on our website so that if you ever forget what is on there, you can reference it here. Please read it over carefully and if you have any further questions about confidentiality in therapy, please do not hesitate to speak to your therapist or call our office.
           </p>
+          <a className="btn custom-btn" type="button" href={handout} target="_blank">Download Confidentiality Handout</a>
         </div>
       </>
     )

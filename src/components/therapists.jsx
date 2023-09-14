@@ -3,6 +3,8 @@ import carol from '../photos/carol.jpg'
 import chris from '../photos/chris.jpg'
 import jacquie from '../photos/jacquie.jpg'
 import ryan from '../photos/ryan.jpg'
+import sydney from '../photos/sydney.jpg'
+import victoria from '../photos/victoria.jpg'
 
 const bios = {
   breanne: `Breanne is a Licensed Professional Counselor, who earned her M.S. in Clinical Mental Counseling from Evangel University in Springfield, Missouri.
@@ -40,6 +42,14 @@ Ryan and his wife Chelsea have been married for 12 years and have an ever expand
 Carol provides individual counseling for adults has extensive experience helping people with depression, anxiety, PTSD and other trauma-related difficulties, and life transitions. Carol specialized in working with grief and loss and in addition to supporting individuals in their grieving process, she will also provide grief/loss focused couples counseling.
 
 Carol is a life long resident of the Lowcountry with a deep love for its culture, people and beautiful environment.`,
+  sydney: `Sydney graduated from Webster University with her master’s degree in Professional Mental Health Counseling and she earned her bachelor’s degree in psychology from the University of South Carolina-Upstate.
+
+Through her work with a child advocacy center, she gained experience and extensive training in providing counseling services for children, adolescents, and adults who have experienced trauma and abuse. She has training in evidence-based approaches to address problematic sexual behavior in pre-school and school-aged children and she has a passion for teaching body safety, internet safety, and sex education to children, adolescents, and parents. Sydney loves to work with parents and their children to strengthen communication, improve connection, and build healthy relationships that last a lifetime. In a world where conflict seems to create division all around us, Sydney strives to help parents and their children (of all ages) navigate differences in values or beliefs while maintaining a loving, trusting relationship.
+
+Sydney’s primary therapeutic tools include Cognitive Behavioral Therapy (CBT), Trauma-Focused CBT, Cognitive Processing Therapy (CPT), and Risk Reduction through Family Therapy (RRFT). She also draws from concepts within attachment theory.
+
+ In her spare time, Sydney and her family love to serve alongside their local church, explore outdoors, and relax at the beach.`,
+  victoria: `Victoria earned a BA/BS degree from Furman University and completed her Masters in Divinity with a Pastoral Counseling Certificate from Asbury Theological Seminary in 2022. Victoria is currently enrolled in the Clinical Pastoral Education program at Roper Hospital to further her training as a chalplain, with a passion for caring for others who are experiencing crisis. Victoria has experience in education administration and enjoys providing administrative and spiritual support to therapists and clients. Victoria has called the Lowcountry home for the past 24 years and enjoys spending time with her husband and three teenagers. If there is any time left after attending all of her children’s activities, she enjoys reading and relaxing at the beach.`,
 }
 
 export default function Therapist() {
@@ -64,6 +74,15 @@ export default function Therapist() {
       alt: "Headshot of Carol Conway smiling.",
     },
     {
+      id: "victoria",
+      name: "Victoria Culbertson",
+      firstName: "Victoria",
+      title: "Client Care Coordinator",
+      bio: bios.victoria,
+      photo: victoria,
+      alt: "Headshot of Victoria Culbertson smiling."
+    },
+    {
       id: "ryan",
       name: "Ryan O'Farrell, Psy.D.",
       firstName: "Ryan",
@@ -71,6 +90,15 @@ export default function Therapist() {
       bio: bios.ryan,
       photo: ryan,
       alt: "Headshot of Ryan O'Farrell smiling.",
+    },
+    {
+      id: "sydney",
+      name: "Sydney Reynolds, LPC",
+      firstName: "Sydney",
+      title: "Therapist",
+      bio: bios.sydney,
+      photo: sydney,
+      alt: "Headshot of Sydney Reynolds smiling."
     },
     {
       id: "breanne",

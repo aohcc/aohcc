@@ -144,7 +144,7 @@ export default function Therapist() {
     <>
       <div className="anchor" id="therapists"></div>
       <div className="therapist-section">
-        <h2 className="mx-auto col-8 col-md-4 p-2 my-4" id="therapist-header">Therapists</h2>
+        <h2 className="mx-auto col-8 col-md-4 p-2 my-4" id="therapist-header">Therapists and Staff</h2>
         <div className="container-fluid mx-auto">
           <div className="row row-cols-1 row-cols-lg-3">
               {therapistCard}
